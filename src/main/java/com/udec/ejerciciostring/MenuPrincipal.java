@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class MenuPrincipal {
     /**
-     * Constructor de la clase, en este se hace llamado al metodo de solicitaar palabra
+     * Constructor de la clase, en este se hace llamado al metodo de solicitar palabra
      */
     public MenuPrincipal(){
         solicitarPalabra();

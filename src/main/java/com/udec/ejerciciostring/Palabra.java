@@ -8,12 +8,12 @@ package com.udec.ejerciciostring;
 /**
  *
  * @author Corin V
- * Clase que se encarga de determinar las primeras letras de una palabra
+ * Clase que se encarga de determinar las primera letra de una palabra
  */
 public class Palabra {
     /**
-     * palabra, es usado para guardar el dato ingresado por el usuario
-     * cadenaPalabra, es usado para guardar la palabra en un vector de caracteres
+     * palabra, este string es usado para guardar el dato ingresado por el usuario
+     * cadenaPalabra, este vector es usado para guardar la palabra en forma vector
      */
     private final  String palabra;
     private final  char [] cadenaPalabra;
@@ -49,7 +49,7 @@ public class Palabra {
     }
     /**
      * Este metodo es usado para verificar cual es la siguiente letra primera siguiente
-     * @param unico esta varaible almacena el caracter que durante la lectura es unico
+     * @param unico esta variable almacena el caracter que durante la lectura es unico y primero
      * @param posicionUnico parametro que envia la posicion del caracter primero de la secuencia
      * @return unico, retorna la nueva primer letra de la cadena
      */
@@ -60,7 +60,7 @@ public class Palabra {
                 acumulador=0;
                 for(int j=0;j<posicionUnico;j++){                    
                     if(cadenaPalabra[i]==cadenaPalabra[j]){
-                           acumulador++;
+                           acumulador++; 
                     }
                 }
                 if(acumulador==1){
